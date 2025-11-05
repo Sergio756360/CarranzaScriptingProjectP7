@@ -11,8 +11,9 @@ public class VariablesandFunctions : MonoBehaviour
     void Start()
     {
         //running my int variable thru the function
-
-       int = MultiplyByTwo(int);
+        //
+        
+        //int MultiplyByTwo(int number);
 
        //displaying the results on the console
         Debug.Log(myInt); 
