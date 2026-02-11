@@ -131,8 +131,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 63139080}
-  - component: {fileID: 63139082}
-  - component: {fileID: 63139081}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -155,31 +153,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &63139081
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 63139078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 340dcff66a4117f468d191f3487c047e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &63139082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 63139078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58cf5d6fb9564754fa1986de55942635, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  other: {fileID: 553289586}
 --- !u!1 &553289586
 GameObject:
   m_ObjectHideFlags: 0
@@ -192,7 +165,7 @@ GameObject:
   - component: {fileID: 553289590}
   - component: {fileID: 553289589}
   - component: {fileID: 553289588}
-  - component: {fileID: 553289587}
+  - component: {fileID: 553289592}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -200,19 +173,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &553289587
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 553289586}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58cf5d6fb9564754fa1986de55942635, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  other: {fileID: 63139078}
 --- !u!135 &553289588
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -299,6 +259,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &553289592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553289586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58cf5d6fb9564754fa1986de55942635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  other: {fileID: 553289586}
 --- !u!1 &1877938330
 GameObject:
   m_ObjectHideFlags: 0
@@ -498,7 +471,6 @@ GameObject:
   - component: {fileID: 2053293110}
   - component: {fileID: 2053293109}
   - component: {fileID: 2053293108}
-  - component: {fileID: 2053293113}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -605,18 +577,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2053293113
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2053293107}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 340dcff66a4117f468d191f3487c047e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
